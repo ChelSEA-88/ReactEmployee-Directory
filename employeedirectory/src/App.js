@@ -1,15 +1,24 @@
 import React from "react";
-// import Homepage from "./components/Homepage";
-import './App.css';
+// import API from "../utils/API";
+import Jumbotron from "./components/jumbotron"
+import Employees from "./components/Employees"
+import Container from "./components/container";
 
-//Components
-import Jumbotron from "./components/jumbotron";
+
+//import all components to use
 
 function App() {
-  
-   return (
-     <Jumbotron/>
-   );
-};
+  return (
+    <>
+    <Jumbotron/>
+      <Container style={{ minHeight: "100vh" }}>
+          <br />
+            <h5>Current Employees</h5>
+        <Employees/>
+      </Container>
+    </>
+  )
+}
 
 export default App;
+
