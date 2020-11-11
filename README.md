@@ -1,6 +1,6 @@
 # Unit 19 React Homework: Employee Directory
 
-This app is deployed here: ![Deployed Employee Directory](https://peaceful-harbor-11961.herokuapp.com/)
+This app is deployed here: [Deployed Employee Directory](https://peaceful-harbor-11961.herokuapp.com/)
 ## Overview
 
 For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
